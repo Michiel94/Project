@@ -57,9 +57,14 @@ KI_q = KP_q*Rs/Lq;
 KP_d = 50;
 KI_d = KP_d*Rs/Ld;
 
-KP_g = 400;
-KP_gv = 10;
-KP_gq = 50;
+% KP_g = 400;
+% KP_gv = 10;
+% KP_gq = 50;
+
+KP_g = 5;
+KP_gv = 5;
+KP_gq = 1;
+
 
 % Grid parameters
 om_g = 100*pi;
